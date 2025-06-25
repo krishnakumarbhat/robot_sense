@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sense</name>
+  <version>0.0.1</version>
+  <description>Read data from Intel RealSense D435i camera</description>
+  <maintainer email="krishnakumar@gmail.com">krishnakumar</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+</package>

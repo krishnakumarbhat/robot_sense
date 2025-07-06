@@ -1,0 +1,23 @@
+/realsense_camera:
+  ros__parameters:
+    width: 640
+    height: 480
+    fps: 30
+    enable_color: true
+    enable_depth: true
+    enable_infra1: false
+    enable_infra2: false
+    enable_imu: true
+    color_format: 'rgb8'
+    depth_format: 'z16'
+    color_fps: 30
+    depth_fps: 30
+    imu_fps: 200
+    depth_filter:
+      spatial: true
+      temporal: true
+      hole_filling: true
+    align_depth: true
+    pointcloud:
+      enable: true
+      ordered: true
